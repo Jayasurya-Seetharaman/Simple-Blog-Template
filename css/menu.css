@@ -1,0 +1,23 @@
+.menu-right {
+  position: absolute;
+  right: 0px;
+}
+.nav-item {
+  padding: 10px 15px !important;
+}
+.navbar {
+  /* padding: 1.7rem 1rem !important; */
+  padding: 0.7rem 1rem !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+.menu-active {
+  background-color: #000;
+  color: #FFF !important;  
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 5px 20px !important;
+}

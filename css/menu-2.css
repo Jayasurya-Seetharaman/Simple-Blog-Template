@@ -1,0 +1,52 @@
+.menu-right {
+  position: absolute;
+  right: 0px;
+}
+.nav-item {
+  padding: 10px 15px !important;
+}
+.navbar {
+  /* padding: 1.7rem 1rem !important; */
+  padding: 0.7rem 1rem !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #000 !important;
+}
+.menu-active {
+  background-color: #000;
+  color: #FFF !important;  
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 5px 20px !important;
+}
+
+@media (min-width:1401px) and (max-width:1499px) {
+  .cust-pad {
+    margin-top: -178px;
+  }
+}
+@media (min-width:1401px) and (max-width:1919px) {
+  .cust-jumb {
+    height: 800px !important;
+  }
+}
+@media (min-width:1401px) {
+  .jumbotron {
+    margin-bottom: 0rem !important;
+  }
+}
+@media (min-width: 1500px) and (max-width:1704px) {
+  .cust-pad {
+      margin-top: -132px;
+  }
+}
+@media (min-width:1920px) {
+  .cust-jumb {
+    height: 855px !important;
+  }
+}

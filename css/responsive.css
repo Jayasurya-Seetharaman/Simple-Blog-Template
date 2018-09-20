@@ -1,0 +1,10 @@
+@media (max-width:767px) {
+    .card-pad {
+        padding: 12px 0px;        
+    }
+}
+@media (max-width:575px) {
+    .card-pad {
+        padding: 12px 20px;
+    }    
+}
